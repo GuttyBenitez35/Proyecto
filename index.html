@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Personal</title>
+    <link rel="icon" type="image/jpg" href="./image/logo.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/estilos.css" />
+  </head>
+  <body>
+    <header class="d-flex justify-content-around">
+      <div class="d-flex gap-2">
+        <img
+          id="logo"
+          src="./image/logo.jpg"
+          alt="logo"
+          width="50px"
+          height="50px"
+        />
+        <h1>PUG eSports</h1>
+      </div>
+      <nav>
+        <ul id="menu" class="d-flex gap-4">
+          <li><a href="#section1">Items</a></li>
+          <li><a href="#section2">Partidas</a></li>
+          <li><a href="#section3">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="section1"
+        class="contenedor-arcanos d-flex justify-content-center"
+      >
+        <div class="text-center arcano">
+          <h2>Phantom Assasing</h2>
+          <img src="./image/arcana1.webp" alt="Arcana Phantom Assasing" />
+          <p>Costo: <strong>34.99$</strong></p>
+          <p class="descripcion">
+            <em>El precio se adecua al tipo de cambio de moneda.</em>
+          </p>
+        </div>
+        <div class="text-center arcano">
+          <h2>Legion Commander</h2>
+          <img src="./image/arcana2.webp" alt="Arcana Legion Commander" />
+          <p>Costo: <strong>34.99$</strong></p>
+          <p class="descripcion">
+            <em>El precio se adecua al tipo de cambio de moneda.</em>
+          </p>
+        </div>
+        <div class="text-center arcano">
+          <h2>Terrorblade</h2>
+          <img src="./image/arcana3.webp" alt="Arcana Terrorblade" />
+          <p>Costo: <strong>34.99$</strong></p>
+          <p class="descripcion">
+            <em>El precio se adecua al tipo de cambio de moneda.</em>
+          </p>
+        </div>
+      </section>
+      <section id="section2" class="partida text-center">
+        <h2 id="vs-titulo">La gran final</h2>
+        <img
+          id="vs"
+          src="./image/vs.jpg"
+          alt="Versus del Torneo"
+          width="844px"
+        />
+        <br />
+        <a
+          class="btn btn-info go-twitch"
+          href="https://www.twitch.tv/videos/1897948437?t=00h30m00s"
+          target="_blank"
+          >Ver en Twitch</a
+        >
+      </section>
+    </main>
+    <div class="line"></div>
+    <footer class="d-flex justify-content-around">
+      <section id="section3" class="sponsor">
+        <ul class="d-flex gap-4">
+          <li>
+            <img
+              src="./image/sponsor1.jpg"
+              alt="Iris Computer"
+              width="100px"
+              height="100px"
+            />
+          </li>
+          <li>
+            <img
+              src="./image/sponsor2.jpg"
+              alt="Coca-Cola"
+              width="100px"
+              height="100px"
+            />
+          </li>
+          <li>
+            <img
+              src="./image/sponsor3.jpg"
+              alt="Deep Cool"
+              width="100px"
+              height="100px"
+            />
+          </li>
+          <li>
+            <img
+              src="./image/sponsor4.jpg"
+              alt="Crunchiroll"
+              width="100px"
+              height="100px"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="contacto d-flex gap-3">
+        <div class="columna">
+          <p>Marco Augusto Benitez Mujica</p>
+          <p>+591 63060839</p>
+        </div>
+        <div class="columna">
+          <p>UPDS - Tarija</p>
+          <p>agutsto@gmail.com</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
